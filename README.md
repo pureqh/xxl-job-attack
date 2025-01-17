@@ -1,2 +1,13 @@
 # xxl-job-attack
 xxl-job漏洞综合利用工具
+
+
+# 该工具可检测以下漏洞：
+默认口令 
+api接口未授权Hessian反序列化
+Executor未授权命令执行
+默认accessToken身份绕过
+
+# 关于内存马
+内存马使用了xslt，由于测试直接打入内存马有时会失败，所以选择直接打入agent内存马
+如需自定义可替换resources下的ser文件，其中agent.ser为agent内存马、xslt.ser会落地为/tmp/2.xslt
