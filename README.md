@@ -16,4 +16,4 @@ xxl-job漏洞综合利用工具
 4、默认注入vagent内存马，连接信息冰蝎:http://ip:port/xxl-job-admin/api/luckydayb,其他类型内存马类似，
 将favicon改为luckyday即可<br>
 5、由于agent发送文件较大，所以可能导致包发不过去，建议多试几次或者将超时时间延长<br>
-6、由于Hessian反序列化基本上都是直接发序列化包，所以理论上讲其他的Hessian反序列化漏洞也可以打<br>
+6、由于Hessian反序列化基本上都是直接发二进制包，所以理论上讲其他的Hessian反序列化漏洞也可以打<br>
