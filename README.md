@@ -4,7 +4,7 @@ xxl-job漏洞综合利用工具
 ![image](https://github.com/user-attachments/assets/e3ec370a-590c-4d6b-b06b-c9e056105606)
 
 # 该工具可检测以下漏洞：
-1、默认口令\n
+1、默认口令<br>
 2、api接口未授权Hessian反序列化<br>
 3、Executor未授权命令执行<br>
 4、默认accessToken身份绕过<br>
