@@ -206,7 +206,7 @@
                                         <Insets top="5.0" />
                                     </padding>
                                 </HBox>
-                                <TextArea fx:id="InjOutputArea" prefHeight="433.0" prefWidth="990.0" text="[info] vagent内存马连接配置:冰蝎:http://ip:port/xxl-job-admin/api/luckydayb,其他类型内存马类似，&#10;将favicon改为luckyday即可&#10;[info] 由于agent发送文件较大，所以可能导致包发不过去，建议多试几次或者将超时时间延长&#10;[info] Behinder内存马连接配置: &#10;
+                                <TextArea fx:id="InjOutputArea" prefHeight="433.0" prefWidth="990.0" text="[info] vagent内存马连接配置:冰蝎:http://ip:port/xxl-job-admin/api/luckydayb,其他类型内存马类似，&#10;将favicon改为luckyday即可&#10;[info] 由于agent发送文件较大，所以可能导致包发不过去，建议多试几次或者将超时时间延长&#10;[info] Behinder-Filter内存马连接配置: &#10;
 密码: Qqpniuqs&#10;
 请求路径: /luckydayb&#10;
 请求头: Referer: Piyzr&#10;
