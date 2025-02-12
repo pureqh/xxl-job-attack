@@ -1,5 +1,6 @@
 # xxl-job-attack
-xxl-job漏洞综合利用工具
+xxl-job漏洞综合利用工具<br>
+仅供学习 请勿用作非法用途<br>
 
 ![image](https://github.com/user-attachments/assets/0f5c92bf-7308-4c2f-8bf9-b03e5099ecf1)
 
