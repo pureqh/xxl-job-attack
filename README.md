@@ -1,6 +1,5 @@
 # xxl-job-attack
 xxl-job漏洞综合利用工具<br>
-仅供学习 请勿用作非法用途<br>
 
 ![image](https://github.com/user-attachments/assets/0f5c92bf-7308-4c2f-8bf9-b03e5099ecf1)
 
@@ -27,3 +26,6 @@ xxl-job漏洞综合利用工具<br>
  注入器类名: com.fasterxml.jackson.eo.JSONUtil<br>
 6、由于agent发送文件较大，所以可能导致包发不过去，建议多试几次或者将超时时间延长<br>
 7、由于Hessian反序列化基本上都是直接发二进制包，所以理论上讲其他的Hessian反序列化漏洞也可以打<br>
+
+# 声明
+仅供学习 请勿用作非法用途<br>
