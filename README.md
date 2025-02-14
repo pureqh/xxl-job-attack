@@ -6,7 +6,7 @@ xxl-job漏洞综合利用工具<br>
 
 # 该工具可检测以下漏洞：
 1、默认口令<br>
-2、api接口未授权Hessian反序列化<br>
+2、api接口未授权Hessian反序列化（只检测是否存在接口，是否存在漏洞需要打内存马验证）<br> 
 3、Executor未授权命令执行<br>
 4、默认accessToken身份绕过<br>
 
