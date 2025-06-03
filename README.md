@@ -15,8 +15,8 @@ xxl-job漏洞综合利用工具<br>
 2、如需自定义可替换resources下的ser文件，其中filter.ser为冰蝎filter内存马、agent.ser为冰蝎agent内存马、xslt.ser会落地为/tmp/2.xslt,
 <br>
 3、内容为使用exec执行/tmp/agent.jar、exp.ser则是加载/tmp/2.xslt<br>
-4、vagent内存马连接配置:冰蝎:http://ip:port/xxl-job-admin/api,其他类型内存马类似，
-将favicon改为luckyday即可<br>
+4、vagent内存马连接配置:冰蝎:http://ip:port/xxl-job-admin/api, 其他类型内存马类似，
+将api改为luckydayc、luckydayjs等即可<br>
 5、Behinder内存马连接配置: <br>
  密码: Sgjmccrzo<br>
  请求路径: /api<br>
